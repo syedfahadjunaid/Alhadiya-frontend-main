@@ -1,0 +1,24 @@
+.homePageTopSelected {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  gap: 20px;
+  font-size: 12px;
+  background-color: white;
+  border-radius: 10px;
+}
+.homePageTopSelected-img {
+  width: 100%;
+}
+.homePageTopSelected-img > img {
+  width: 100%;
+}
+.homePageTopSelected-content {
+  margin-left: 10px;
+}
+.homePageTopSelected-price {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

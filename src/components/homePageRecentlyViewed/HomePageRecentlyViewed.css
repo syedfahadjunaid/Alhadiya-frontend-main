@@ -1,0 +1,14 @@
+.homePageRecentlyViewed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  gap: 10px;
+  font-size: 12px;
+}
+.homePageRecentlyViewed-img {
+  width: 80%;
+}
+.homePageRecentlyViewed-img > img {
+  width: 100%;
+}

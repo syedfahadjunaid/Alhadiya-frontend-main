@@ -1,0 +1,108 @@
+@media only screen and (max-width: 600px) {
+  .headerSearchBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: purple; */
+  }
+  .sub-headerSearchBar-logo-img > a > img {
+    width: 125px !important;
+
+    object-fit: contain;
+  }
+}
+
+.headerSearchBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky !important;
+  top: 0;
+  background-color: #fff;
+  position: relative;
+  padding: 10px 0;
+  z-index: 111111;
+  border-bottom: 1px solid lightgrey;
+}
+.sub-headerSearchBar {
+  width: 90%;
+}
+.sub-headerSearchBar-logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sub-headerSearchBar-logo-img {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  padding-left: 5%;
+}
+.sub-headerSearchBar-logo-img > a > img {
+  width: 90%;
+}
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+  color: white;
+  background-color: #f24545;
+  box-shadow: 0px 2px 2px 0px #f24545;
+}
+.sub_header_search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f1f1f1;
+  flex: 0.6;
+  height: 35px;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+.sub_header_search > input {
+  width: 90%;
+  height: 100%;
+  border: transparent;
+  outline: transparent;
+  background-color: transparent;
+}
+.hamberger {
+  display: none;
+}
+.headerSearchBar_menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #f1f1f1;
+  height: 100vh;
+  z-index: 111111;
+  transition: width 0.5s ease-in-out;
+}
+@media only screen and (max-width: 1000px) {
+  .notification {
+    display: none;
+  }
+  .hamberger {
+    display: block;
+  }
+  .headerSearchBar_menu {
+    display: block;
+  }
+}

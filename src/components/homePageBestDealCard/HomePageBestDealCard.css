@@ -1,0 +1,14 @@
+.homePageBestDealCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  gap: 10px;
+  font-size: 12px;
+}
+.homePageBestDealCard-img {
+  width: 80%;
+}
+.homePageBestDealCard-img > img {
+  width: 100%;
+}
